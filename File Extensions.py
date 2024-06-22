@@ -4,7 +4,7 @@ def main():
 
 #defining 'check_extensions'
 def check_extensions(s):
-    dict={                #defining a dictionary here that contains all our required extensions
+    dict={                #creating a dictionary here that contains all our required extensions
         ".gif":"image/gif",
         ".jpg":"image/jpeg",
         ".jpeg":"image/jpeg",
