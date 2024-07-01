@@ -11,7 +11,7 @@ def fraction(prompt):
                 return "E"
             elif 90<= value<=100:
                 return "F"
-            elif value>100:
+            elif value>100:                                              #use <pass> instead of <break> since break tends to return <"none">
                 pass
             else:
                 return str(int(round(value)))+"%"
